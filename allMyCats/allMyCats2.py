@@ -7,7 +7,7 @@ while True:
     print('Você com certeza é uma tia dos gatos.')
   if name == '':
     break
-  catNames = catNames + [name] 
+  catNames = catNames + [name] #concatena o valor da lista com o novo valor digitado pelo user
 
 print('Os nomes dos gatos:')
 for name in catNames:
